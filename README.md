@@ -10,7 +10,6 @@
 
 
 ```mermaid
-graph LR
-A(입력)-->B[연산]
-B-->C(출력)
+graph TD
+A-->B
 ```
