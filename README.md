@@ -10,6 +10,7 @@
 
 
 ```mermaid
-graph TD
-A-->B
+flowchart TD
+   A[hypothesis]-->B(experiment);
+   B --> yes --> C(ok);
 ```
